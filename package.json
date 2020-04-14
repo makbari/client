@@ -2,12 +2,22 @@
   "name": "client",
   "version": "1.0.0",
   "description": "Typescript Clientside",
-  "main": "index.ts",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "repository": "https://github.com/makbari/client.git",
   "author": {
     "name": "mohammad akbari",
     "email": "mohammad-akbari@hotmail.com"
   },
+  "scripts": {
+    "build": "tsc --p tsconfig.json"
+  },
   "license": "MIT",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
 }
