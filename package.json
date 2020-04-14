@@ -1,0 +1,13 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "Typescript Clientside",
+  "main": "index.ts",
+  "repository": "https://github.com/makbari/client.git",
+  "author": {
+    "name": "mohammad akbari",
+    "email": "mohammad-akbari@hotmail.com"
+  },
+  "license": "MIT",
+  "private": true
+}
